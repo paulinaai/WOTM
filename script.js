@@ -1,5 +1,5 @@
 const sheetId = "193wEAE2DjE7P6UZsQBKKfG_vPeVhnFWisllzbfhXWwM";
-const sheetName = "WOTM"; // change if your sheet is named differently
+const sheetName = "Sheet1"; // change if your sheet is named differently
 const url = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=out:json&sheet=${sheetName}`;
 
 fetch(url)
